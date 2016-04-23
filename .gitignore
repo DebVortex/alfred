@@ -1,0 +1,38 @@
+*.py[cod]
+*~
+.python-version
+__pycache__
+!.gitkeep
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+.bundle
+dist
+build
+eggs
+parts
+sdist
+source.tar.gz
+develop-eggs
+.installed.cfg
+
+# Logs
+pip-log.txt
+*.log
+*.log.*
+
+# Unit test / coverage reports
+.cache
+.coverage
+.tox
+htmlcov
+
+# Translations
+*.mo
+
+# Sphinx
+docs/_build

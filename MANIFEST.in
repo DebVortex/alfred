@@ -1,0 +1,13 @@
+include *.rst
+include LICENSE
+include Makefile
+include tox.ini
+
+recursive-include docs *.bat
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
+recursive-include tests *.py
+
+exclude .bumpversion.cfg
+exclude .editorconfig
